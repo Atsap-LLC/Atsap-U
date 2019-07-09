@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Lesson 2</title>
+    <script>
+        function myFunction() {
+            var name = document.getElementById("name").value;
+            var textArea = document.getElementById("txtArea").value;
+            alert("Hello " + name + ", you typed: " + textArea);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Lesson 2</h1>
+    <p>Things I learned in lesson 2:</p>
+    <div style="display: grid; ">
+        <a href="http://www.atsapllc.com/">Atsap LLC</a>
+        <img src="https://images-na.ssl-images-amazon.com/images/I/91zBlQ1iqoL._RI_.jpg" 
+            style="width:200px" />
+        <table style="width: 200px; border: solid;">
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+            </tr>
+            <tr>
+                <td>Some data</td>
+                <td>Some more data</td>
+            </tr>
+        </table>
+        <ol>
+            <li><b>Pittsburgh Steelers</b></li>
+            <li>Pittsburgh Penguins</li>
+            <li>Pittsburgh Pirates</li>
+        </ol>
+    </div>
+    <div>
+        <form>
+            <input placeholder="Type your name..." type="text" id="name" />
+            <textarea id="txtArea">This is a textarea</textarea>
+            <button onclick="myFunction()" style="font-weight: bold">Click me!</button>
+        </form>
+    </div>
+</body>
+
+</html>
