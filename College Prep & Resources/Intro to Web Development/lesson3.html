@@ -1,7 +1,8 @@
 <html>
 
 <head>
-    <title>Lesson 2</title>
+    <title>Lesson 3</title>
+    <link rel="stylesheet" href="styles.css" />
     <script>
         function myFunction() {
             var name = document.getElementById("name").value;
@@ -11,14 +12,13 @@
     </script>
 </head>
 
-<body>
-    <h1>Lesson 2</h1>
-    <p>Things I learned in lesson 2:</p>
-    <div style="display: grid; ">
+<body class="container">
+    <h1 class="under">Lesson 3</h1>
+    <p>In lesson 3 we learned how to style!</p>
+    <div class="left">
         <a href="http://www.atsapllc.com/atsapu">Atsap LLC</a>
-        <img src="https://images-na.ssl-images-amazon.com/images/I/91zBlQ1iqoL._RI_.jpg" 
-            style="width:200px" />
-        <table style="width: 200px; border: solid;">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/91zBlQ1iqoL._RI_.jpg" />
+        <table>
             <tr>
                 <th>Column 1</th>
                 <th>Column 2</th>
@@ -34,11 +34,11 @@
             <li>Pittsburgh Pirates</li>
         </ol>
     </div>
-    <div>
+    <div class="right">
         <form>
             <input placeholder="Type your name..." type="text" id="name" />
             <textarea id="txtArea">This is a textarea</textarea>
-            <button onclick="myFunction()" style="font-weight: bold">Click me!</button>
+            <button onclick="myFunction()">Click me!</button>
         </form>
     </div>
 </body>
