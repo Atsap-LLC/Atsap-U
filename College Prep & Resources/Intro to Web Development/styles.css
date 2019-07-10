@@ -3,18 +3,8 @@
 }
 .left {
     display: grid;
-    float: left;
     border: solid;
     padding: 10px;
-    width: 50%;
-}
-.right {
-    float: right;
-    border: blue solid;
-    padding: 10px;
-}
-.under {
-    text-decoration: underline;
 }
 img, table {
     width: 200px;

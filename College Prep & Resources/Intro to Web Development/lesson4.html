@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>Lesson 4</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script>
+        function myFunction() {
+            var name = document.getElementById("name").value;
+            var textArea = document.getElementById("txtArea").value;
+            alert("Hello " + name + ", you typed: " + textArea);
+        }
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Lesson 4</a>
+        <div id="navbar">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home</a>
+                <a class="nav-item nav-link" href="#">Features</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <p>Thank you Bootstrap!</p>
+        <div class="row">
+            <div class="col left">
+                <a href="http://www.atsapllc.com/atsapu">Atsap LLC</a>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/91zBlQ1iqoL._RI_.jpg" />
+                <table class="table table-dark">
+                    <tr>
+                        <th>Column 1</th>
+                        <th>Column 2</th>
+                    </tr>
+                    <tr>
+                        <td>Some data</td>
+                        <td>Some more data</td>
+                    </tr>
+                </table>
+                <ol>
+                    <li><b>Pittsburgh Steelers</b></li>
+                    <li>Pittsburgh Penguins</li>
+                    <li>Pittsburgh Pirates</li>
+                </ol>
+            </div>
+            <div class="col">
+                <form>
+                    <div class="form-group">
+                        <input class="form-control" placeholder="Type your name..." type="text" id="name" />
+                        <textarea class="form-control" id="txtArea">This is a textarea</textarea>
+                        <button class="form-control" onclick="myFunction()">Click me!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
